@@ -8,7 +8,7 @@ Repositório contendo as soluções das **5 listas de exercícios** da disciplin
 
 | Lista | Tema              | Descrição                                                                 |
 |-------|-------------------|---------------------------------------------------------------------------|
-| [Lista 1](./Lista1) | Funções           | Modularização de código, uso de funções com/sem retorno e recursividade |
+| [Lista 1](./Listas_de_exercícios/Lista1) | Funções           | Modularização de código, uso de funções com/sem retorno e recursividade |
 | [Lista 2](./lista2-arquivo) | Arquivos          | Leitura, escrita, busca e exclusão de dados em arquivos texto           |
 | [Lista 3](./lista3-alocacao) | Alocação Dinâmica | `malloc`, `free`, vetores/matrizes dinâmicas e manipulação de memória   |
 | [Lista 4](./lista4-estruturas) | Estruturas         | Uso de `struct`, structs compostas, vetores de struct                   |
