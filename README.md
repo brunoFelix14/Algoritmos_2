@@ -1,25 +1,59 @@
 # 📘 Algoritmos II — Listas de Exercícios
 
-Repositório contendo as soluções das **5 listas de exercícios** da disciplina **Algoritmos II**, escritas em linguagem **C**. Cada lista aborda um tema específico fundamental para o domínio da programação estruturada.
+Este repositório contém as soluções das **5 listas de exercícios** da disciplina **Algoritmos II**, organizadas por tema, escritas em linguagem C.
 
 ---
 
-## 📂 Conteúdo
+## 📂 Estrutura
 
-| Lista | Tema              | Descrição                                                                 |
-|-------|-------------------|---------------------------------------------------------------------------|
-| [Lista 1](./Listas_de_exercícios/Lista1) | Funções           | Modularização de código, uso de funções com/sem retorno e recursividade |
-| [Lista 2](./lista2-arquivo) | Arquivos          | Leitura, escrita, busca e exclusão de dados em arquivos texto           |
-| [Lista 3](./lista3-alocacao) | Alocação Dinâmica | `malloc`, `free`, vetores/matrizes dinâmicas e manipulação de memória   |
-| [Lista 4](./lista4-estruturas) | Estruturas         | Uso de `struct`, structs compostas, vetores de struct                   |
-| [Lista 5](./lista5-ponteiro) | Ponteiros          | Ponteiros simples, vetores, structs e ponteiros para funções            |
+| Lista | Tema              | Link                                                                 |
+|-------|-------------------|----------------------------------------------------------------------|
+| Lista 1 | Funções           | [Acessar](./Listas_de_Exercícios/Lista_1)                            |
+| Lista 2 | Arquivos          | [Acessar](./Listas_de_Exercícios/Lista_2)                            |
+| Lista 3 | Alocação Dinâmica | [Acessar](./Listas_de_Exercícios/Lista_3)                            |
+| Lista 4 | Estruturas        | [Acessar](./Listas_de_Exercícios/Lista_4)                            |
+| Lista 5 | Ponteiros         | [Acessar](./Listas_de_Exercícios/Lista_5)                            |
 
 ---
 
-## ⚙️ Como Compilar e Executar
+## 📑 Descrição das Listas
 
-Para compilar os códigos, utilize um compilador C como o `gcc`. Exemplo:
+### 🔹 Lista 1 — Funções
+Trabalha com modularização de código:
+- Funções com e sem retorno
+- Parâmetros e escopo
+- Recursividade simples
+
+### 🔹 Lista 2 — Arquivos
+Manipulação de arquivos texto:
+- Criação e escrita
+- Leitura e busca
+- Exclusão e alteração de registros
+
+### 🔹 Lista 3 — Alocação Dinâmica
+Trabalha com memória dinâmica:
+- `malloc`, `free`
+- Vetores e matrizes alocadas
+- Manipulação de ponteiros
+
+### 🔹 Lista 4 — Estruturas
+Uso de `struct` para organizar dados:
+- Structs simples e compostas
+- Vetores de structs
+- Structs com ponteiros
+
+### 🔹 Lista 5 — Ponteiros
+Foca em manipulação direta de memória:
+- Ponteiros simples
+- Ponteiros para structs
+- Ponteiros para função
+
+---
+
+## ⚙️ Como compilar
+
+Você pode compilar qualquer arquivo `.c` usando:
 
 ```bash
-gcc exercicio1.c -o exec
-./exec
+gcc nome_do_arquivo.c -o programa
+./programa
